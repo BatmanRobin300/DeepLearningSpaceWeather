@@ -1,0 +1,14 @@
+{
+    "features": [
+        "solar_wind_speed_km_s",
+        "proton_density_n_cm3",
+        "bz_nt",
+        "temperature_k",
+        "dynamic_pressure_npa"
+    ],
+    "target": "kp_index",
+    "window_size": 24,
+    "rows": 3000,
+    "train_sequences": 2376,
+    "test_sequences": 600
+}
